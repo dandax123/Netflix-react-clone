@@ -1,12 +1,12 @@
 import React from 'react';
-import {Footer} from '../components'; 
+import { Footer } from '../components';
 
 
-export function FooterContainer(){
+export function FooterContainer() {
     return (
         <Footer>
             <Footer.Title>Questions</Footer.Title>
-            <Footer.Break/>
+            <Footer.Break />
             <Footer.Row>
                 <Footer.Column>
                     <Footer.Link href='#'>FAQ</Footer.Link>
@@ -15,8 +15,7 @@ export function FooterContainer(){
                     <Footer.Link href='#'>dope</Footer.Link>
 
                 </Footer.Column>
-            </Footer.Row>
-            <Footer.Row>
+
                 <Footer.Column>
                     <Footer.Link href='#'>FAQ</Footer.Link>
                     <Footer.Link href='#'>ok</Footer.Link>

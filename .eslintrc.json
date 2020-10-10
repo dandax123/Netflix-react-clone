@@ -3,6 +3,7 @@
     "airbnb",
     "prettier",
     "prettier/react",
+    "react-app",
     "plugin:jsx-a11y/recommended"
   ],
   "parser": "babel-eslint",
@@ -48,7 +49,7 @@
       }
     ],
     "no-console": 0,
-    "import/prefer-default-export": 1,
+    "import/prefer-default-export": 0,
     "import": 0,
     "func-names": 0,
     "space-before-function-paren": 0,
@@ -90,7 +91,7 @@
       {
         "trailingComma": "es5",
         "singleQuote": true,
-        "printWidth": 120
+        "printWidth": 80
       }
     ],
     "jsx-a11y/href-no-hash": "off",
